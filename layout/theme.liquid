@@ -37,6 +37,9 @@
   <!-- Font Awesome ================================================== -->
   <script src="https://use.fontawesome.com/7a6365e5d6.js"></script>
 
+  <!-- svg.js ================================================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.4/svg.min.js"></script>
+
   <!-- Sections ================================================== -->
   <script>
     window.theme = window.theme || {};
@@ -100,7 +103,7 @@
   </div>
   <div id="PageContainer" class="page-container">
     
-    {% unless template.name == "index" or template.suffix == "portfolio" %}    
+    {% unless template.name == "index" or template.suffix == "landing-b" %}    
       {% section 'header' %}
     {% endunless %}  
 
@@ -111,7 +114,7 @@
 
     {% unless template.name == "index" %}
       <main class="main-content" role="main">
-        {% unless template == "collection.image" or template.suffix == "home" or template.suffix == "portfolio" %}
+        {% unless template == "collection.image" or template.suffix == "home" or template.suffix == "landing-b" %}
           <div class="wrapper">
         {% endunless %}
           {{ content_for_layout }}

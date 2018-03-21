@@ -1793,13 +1793,14 @@ var slickThemePortfolio = (function(module, $) {
       fullscreen     : false,
       parallax       : false,
 
+
       // Private settings
       isTouch        : Modernizr.touch ? true : false,
 
       // Slack options
       arrows         : false,
       dots           : true,
-      adaptiveHeight : true
+      adaptiveHeight : false
     };
 
     // Override defaults with arguments
@@ -1821,7 +1822,6 @@ var slickThemePortfolio = (function(module, $) {
     settings.$element.slick({
       arrows         : true,
       dots           : false,
-      adaptiveHeight : true,
       draggable      : true,
       //autoplay       : theme.strings.slickAuto,
       //autoplaySpeed  : theme.strings.slickAutoSpeed,
@@ -1829,7 +1829,10 @@ var slickThemePortfolio = (function(module, $) {
       autoplaySpeed  : slickThemePortfolio.cache.$hero.data('autoplayspeed'),
       onInit         : this.onInit,
       onBeforeChange : this.beforeChange,
-      onAfterChange  : this.afterChange
+      onAfterChange  : this.afterChange,
+      variableWidth  : true,
+      slidesToShow   : 1,
+      lazyLoad       : true
     });
   };
 
@@ -2557,7 +2560,6 @@ theme.SlideshowSectionPortfolio = (function() {
 
     slickThemePortfolio.init({
       $element     : $(slideshow),
-      fullscreen   : $(slideshow).data('fullscreen'),
       parallax     : $(slideshow).data('parallax'),
       autoplay       : $(slideshow).data('autoplay'),
       autoplaySpeed  : $(slideshow).data('autoplayspeed')

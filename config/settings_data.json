@@ -40,9 +40,9 @@
     "share_pinterest": true,
     "share_instagram": true,
     "share_email": true,
-    "favicon": "shopify:\/\/shop_images\/logo-green.png",
-    "checkout_header_image": "shopify:\/\/shop_images\/PW_Banner_copy.jpg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/PW_Cart.png",
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -68,9 +68,9 @@
         "type": "header",
         "settings": {
           "main_menu_link_list": "main-menu",
-          "logo": "shopify:\/\/shop_images\/PIERCEANDWARD_Green_PW_v2_copy.png",
+          "logo": "shopify:\/\/shop_images\/header_logo.png",
           "logo-inverted": "",
-          "logo_max_width": "60",
+          "logo_max_width": "300",
           "search": "modal",
           "show_announcement": false,
           "home_page_only": false,
@@ -158,7 +158,18 @@
           "1500238527161": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/PW-portrait_MAIN_2c2f8f68-e8b3-48ba-b0d3-2f58d772943a.jpeg",
+              "image": "shopify:\/\/shop_images\/cl_landing_v2.jpg",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          },
+          "1521310863522": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2017124_CLI_Spartanburg-5.jpg",
               "slide_text_color": "is-dark",
               "slide_subheading": "",
               "slide_heading": "",
@@ -168,7 +179,8 @@
           }
         },
         "block_order": [
-          "1500238527161"
+          "1500238527161",
+          "1521310863522"
         ],
         "settings": {
           "hero_home_auto": true,
@@ -181,7 +193,7 @@
           "1500421410366": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_384.jpg",
+              "image": "shopify:\/\/shop_images\/cl_home_v1.png",
               "slide_text_color": "is-dark",
               "slide_subheading": "",
               "slide_heading": "",
@@ -201,192 +213,32 @@
       "slideshow-portfolio": {
         "type": "slideshow-portfolio",
         "blocks": {
-          "1501786931116": {
+          "1521317380688": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/rosesquare.jpg",
-              "slide_text_color": "is-dark"
+              "image": "shopify:\/\/shop_images\/01_Charleston_DR_bar_cart_details_shot.jpg",
+              "slide_text_color": "is-light"
             }
           },
-          "1501457790731": {
+          "1521318334254": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
-              "slide_text_color": "is-dark"
+              "image": "shopify:\/\/shop_images\/1-2017124_CLI_Spartanburg-10.jpg",
+              "slide_text_color": "is-light"
             }
           },
-          "1501786016575": {
+          "1521319768445": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/square.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458122508": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9558.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458130804": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9576.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458152276": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477_48f121ca-9a0e-4db9-b8d9-f98238207243.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458145459": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9626_e23b0f07-f731-4b69-aeb9-a1fe117a0814.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501697972685": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PE-Proofs-0016_f009dc00-3fe2-4c22-b86f-3dd878d4aaa7.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457353542": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_026.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458265622": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PW-Foyer.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458272854": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PW-Master.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458282250": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PW-Powder-Room.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501783485754": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6624-Edit.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501783565052": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6652-Edit.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501783577364": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6715-Edit.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125136000": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/EBP2656.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125215721": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/EBP2678.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125258348": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/EBP2650.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125337996": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/EBP2888.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125491275": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_7261-Edit.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125572844": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6949-Edit.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125590399": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6958-Edit.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1502125600420": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6944.jpg",
-              "slide_text_color": "is-dark"
+              "image": "shopify:\/\/shop_images\/2017124_CLI_Spartanburg-5.jpg",
+              "slide_text_color": "is-light"
             }
           }
         },
         "block_order": [
-          "1501786931116",
-          "1501457790731",
-          "1501786016575",
-          "1501458122508",
-          "1501458130804",
-          "1501458152276",
-          "1501458145459",
-          "1501697972685",
-          "1501457353542",
-          "1501458265622",
-          "1501458272854",
-          "1501458282250",
-          "1501783485754",
-          "1501783565052",
-          "1501783577364",
-          "1502125136000",
-          "1502125215721",
-          "1502125258348",
-          "1502125337996",
-          "1502125491275",
-          "1502125572844",
-          "1502125590399",
-          "1502125600420"
+          "1521317380688",
+          "1521318334254",
+          "1521319768445"
         ],
         "settings": {
           "hero_home_auto": true,
@@ -412,7 +264,7 @@
       "about-hero-image": {
         "type": "about-hero-image",
         "settings": {
-          "hero-image-about": "shopify:\/\/shop_images\/PW-Portrait-0002_5c27e244-ceaf-4106-9cff-ec3a741e927f.jpg"
+          "hero-image-about": ""
         }
       },
       "about-text": {
@@ -554,7 +406,7 @@
               "press-item-title": "THE STARTER HOUSE",
               "press-item-publication": "GARDEN & GUN",
               "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/19_homplace.pdf?18045650189502434799",
-              "press-item-image": "shopify:\/\/shop_images\/press-img_09419bd1-84d7-4584-858e-8807d287a0c5.png"
+              "press-item-image": ""
             }
           },
           "1501556533630": {
@@ -563,7 +415,7 @@
               "press-item-title": "Cali-Cool Home Makeover",
               "press-item-publication": "",
               "press-item-link": "https:\/\/www.onekingslane.com\/live-love-home\/jen-meyer-home-makeover-pierce-and-ward\/",
-              "press-item-image": "shopify:\/\/shop_images\/press2.png"
+              "press-item-image": ""
             }
           },
           "1501556659796": {
@@ -572,7 +424,7 @@
               "press-item-title": "Elegant English-Inspired",
               "press-item-publication": "Architectural Digest",
               "press-item-link": "http:\/\/www.architecturaldigest.com\/story\/tour-karen-elsons-elegant-english-inspired-nashville-home",
-              "press-item-image": "shopify:\/\/shop_images\/press3.png"
+              "press-item-image": ""
             }
           },
           "1501556737067": {
@@ -581,7 +433,7 @@
               "press-item-title": "Leo in Malibu",
               "press-item-publication": "Trulia",
               "press-item-link": "https:\/\/www.trulia.com\/blog\/celebrity-homes\/hollywood-heartthrob-leonardo-dicaprio-lists-malibu-home\/",
-              "press-item-image": "shopify:\/\/shop_images\/press4.png"
+              "press-item-image": ""
             }
           },
           "1501556867911": {
@@ -590,7 +442,7 @@
               "press-item-title": "Soul Sisters",
               "press-item-publication": "House Beautiful",
               "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/hbx0916-nextwave-lo.pdf?16214652705472318380",
-              "press-item-image": "shopify:\/\/shop_images\/press5.png"
+              "press-item-image": ""
             }
           },
           "1501556988270": {
@@ -599,7 +451,7 @@
               "press-item-title": "Southern Hot List",
               "press-item-publication": "Garden & Gun",
               "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/22_GG0116_hotlist.pdf?12569446281392227304",
-              "press-item-image": "shopify:\/\/shop_images\/press6.png"
+              "press-item-image": ""
             }
           }
         },
@@ -612,6 +464,33 @@
           "1501556988270"
         ],
         "settings": {}
+      },
+      "branded-overlay-b": {
+        "type": "branded-overlay-b",
+        "settings": {}
+      },
+      "slideshow-landing-b": {
+        "type": "slideshow-landing-b",
+        "blocks": {
+          "1521310754486": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cl_home_v1.png",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1521310754486"
+        ],
+        "settings": {
+          "hero_home_auto": true,
+          "home_hero_auto_speed": "5000"
+        }
       }
     },
     "content_for_index": []

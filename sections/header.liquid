@@ -72,15 +72,14 @@
           </div>
         </div>
       </div>
-      <div class="wrapper">
+      <div class="wrapper main-nav-wrapper">
           <!-- begin main-nav -->
           <div class="nav-trigger">
             <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
           </div>
           <div class="logo mobile-logo site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
             <h1 class="site-header__logo" itemscope itemtype="http://schema.org/Organization">
-              <img src="{{ section.settings.logo | img_url: image_size }}" srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.logo.alt | default: shop.name }}"
-              itemprop="logo">
+              <img src="{{ 'header_logo.png' | asset_url }}" />
             </h1>
           </div>
           <ul class="site-nav" id="AccessibleNav">
@@ -96,17 +95,28 @@
             <li class="logo desktop-logo site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <h1 class="site-header__logo" itemscope itemtype="http://schema.org/Organization">
                 <a href="/pages/home" itemprop="url" class="site-header__logo-link{% if section.settings.logo-inverted %} logo--has-inverted{% endif %}">
-                  <img src="{{ section.settings.logo | img_url: image_size }}" srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.logo.alt | default: shop.name }}"
-                  itemprop="logo">
+                  <img src="{{ 'header_logo.png' | asset_url }}" />
                 </a>
               </h1>
             </li>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
-              <a href="/blogs/press" class="site-nav__link">Press</a>
+              <a href="/pages/press" class="site-nav__link">Press</a>
             </li>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <a href="/pages/about" class="site-nav__link">About</a>
             </li>
+            <li class="hide-medium-up site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
+              <a href="/cart" class="cart-link js-drawer-open-right list-group-item site-nav__link" aria-controls="CartDrawer" aria-expanded="false">
+                <span href="/cart">Cart ({{ cart.item_count }})</span>
+              </a>
+            </li>
+            <li class="site-nav__item site-nav__expanded-item">
+              <div class="list-group social-nav-mobile hide-medium-up site-nav__link">
+                <a class="list-group-item" href="https://www.instagram.com/pierceandward/"><i class="fa fa-instagram fa-fw fa-nav" aria-hidden="true"></i></a>
+                <a class="list-group-item" href="https://www.pinterest.com/pierceandwardinteriors/"><i class="fa fa-pinterest-p fa-fw fa-nav" aria-hidden="true"></i></a>
+                <a class="list-group-item" href="mailto:inquiries@pierceandward.com"><i class="fa fa-envelope-o fa-fw fa-nav" aria-hidden="true"></i></a>
+              </div>
+          </li>
           </ul>
           <!-- //main-nav -->
         </div>

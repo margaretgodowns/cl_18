@@ -76,6 +76,7 @@
 // CL Colors
 $clGreen: #9d903d;
 $clPink: #ef7069;
+$clGray: #4d4c4c;
 
 /*================ Variables, theme settings, and Sass mixins from Timber ================*/
 /*============================================================================
@@ -439,7 +440,7 @@ $colorNewsletter: {{ settings.color_newsletter }};
 $colorBorder: {{ settings.color_borders }};
 
 // Border size
-$borderWidthHeader: {{ settings.type_header_border_thickness }};
+$borderWidthHeader: 3px;
 
 // Sale tag color
 $colorSaleTag: {{ settings.color_sale_tag }};
@@ -943,7 +944,9 @@ img.mfp-img {
 /*================ Theme specific global styles ================*/
 hr {
   border-width: $borderWidthHeader 0 0 0;
-  width: 50px;
+  width: 60px;
+  border-top: solid $clGray;
+  margin: 0 0 30px 0;
 }
 
 .hr--small {
@@ -2162,12 +2165,12 @@ $shareCountBg: $colorBody;
   }
 
   .slick-prev {
-    left: 0;
+    left: 25px;
     padding-left: 15px;
   }
 
   .slick-next {
-    right: 0;
+    right: 25px;
     padding-right: 15px;
   }
 }
@@ -2218,13 +2221,13 @@ $shareCountBg: $colorBody;
   }
 }
 
-.hero__slide--hidden {
-  visibility: hidden;
-}
+// .hero__slide--hidden {
+//   visibility: hidden;
+// }
 
-.supports-touch .hero__slide--hidden {
-  visibility: visible;
-}
+// .supports-touch .hero__slide--hidden {
+//   visibility: visible;
+// }
 
 // z-index stacking issues in oldIE
 .ie9,
@@ -2244,7 +2247,7 @@ $shareCountBg: $colorBody;
 ==============================================================================*/
 .hero--full-height {
   // Height is set by JS on slider init. vh is a nice default for modern browsers.
-  height: 100vh;
+  height: 80vh;
   min-height: 550px;
 
   .slick-list,
@@ -2365,14 +2368,6 @@ $shareCountBg: $colorBody;
 }
 
 /*================ Hero header ================*/
-.hero__header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: $zindexHeroHeader;
-}
-
 .template-index .header-wrapper {
   opacity: 0;
   z-index: $zindexHeroHeader;
@@ -2517,6 +2512,10 @@ $slick-opacity-not-active: 0.25;
     height: auto;
     border: 1px solid transparent;
   }
+}
+
+.hero-slideshow-portfolio .slick-list .slick-track .slick-slide {
+  padding: 0 5px;
 }
 
 /* Icons */
@@ -2729,6 +2728,9 @@ $slick-opacity-not-active: 0.25;
 }
 
 /*================ Module | Theme Header and Navigation Overrides ================*/
+.site-header {
+  border-bottom: 3px solid $clGreen;
+}
 @include at-query($max, $medium) {
   .site-header {
     padding: 0;
@@ -2766,7 +2768,15 @@ $slick-opacity-not-active: 0.25;
 }
 
 /*================ Text Shop Name ================*/
+.site-header .main-nav-wrapper {
+  padding: 5px 0 10px;
+  @include at-query($max, $medium) {
+    padding: 0;
+  }
+}
+
 .site-header__logo {
+  padding-top: 17px;
   font-size: em(20px);
 
   @include at-query($min, $large) {
@@ -3994,10 +4004,15 @@ body {
   }
 }
 
+.mobile-logo .site-header__logo {
+  padding-top: 0;
+  max-width: 250px;
+}
+
 .nav-trigger {
   position: absolute;
   z-index: 7;
-  top: 28px;
+  top: 10px;
   left: 15px;
   &:hover {
     cursor: pointer;
@@ -4034,6 +4049,13 @@ button:focus {
   outline: 0;
 }
 
+.show-small-down {
+  display: none;
+  @include at-query($max, $small) {
+    display: block;
+  }
+}
+
 
 /*================ Index Template Styles ================*/
 body,
@@ -4048,26 +4070,18 @@ body,
   overflow: hidden;
 }
 
-#shopify-section-branded-overlay {
+#shopify-section-branded-overlay,
+#shopify-section-branded-overlay-b {
   position: absolute;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
   z-index: 10;
   left: 0;
   top: 0;
-  img {
-    width: 215px;
-    z-index: 11;
-    margin-top: 30px;
-    cursor: pointer;
-    @include at-query($max, $small) {
-      width: 160px;
-    }
-  }
+  align-items: center;
+  text-align: center;
   .social-nav {
     height: 100%;
     display: flex;
@@ -4084,12 +4098,40 @@ body,
   }
 }
 
+#shopify-section-branded-overlay {
+  justify-content: flex-start;
+  img {
+    z-index: 11;
+    cursor: pointer;
+    padding-top: 25px;
+  }
+}
+
+#shopify-section-branded-overlay-b {
+  justify-content: space-between;
+}
+
+.branded-overlay-h2,
+.branded-overlay-h3 {
+  font-family: 'Proxima_Nova_Reg';
+  color: $clGray;
+  padding: 40px;
+  letter-spacing: .3em;
+}
+
+.branded-overlay-h2 {
+  font-size: 3em;
+  @include at-query($max, $small) {
+    font-size: 1.5em;
+  }
+}
+
 .muted-overlay {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: white;
-  opacity: .2;
+  background-color: #000;
+  opacity: .1;
   cursor: pointer;
   left: 0;
   top: 0;
@@ -4099,12 +4141,17 @@ body,
   opacity: 0;
 }
 
+#svg-logo {
+  z-index: 99;
+  cursor: pointer;
+}
+
 body {
   background: black;
 }
 
 .arrow i {
-  color: #fff;
+  color: red;
   -webkit-animation: arrow 5s both infinite;
   animation: arrow 5s both infinite;
 }
@@ -4147,7 +4194,12 @@ body {
 }
 
 /*================ Portfolio Specfic Styles ================*/
- #portfolio {
+#shopify-section-slideshow-portfolio,
+.press-wrapper {
+  margin-top: 20px;
+} 
+
+#portfolio {
   background-color: #000000;
  }
 
@@ -4185,6 +4237,7 @@ body {
       }
     }
   }
+
   .social-nav-side {
     width: 20%;
     @include at-query($max, $medium) {
@@ -4201,19 +4254,11 @@ body {
   }
 } 
 
-#portfolio .wrapper {
-  max-width: 1220px;
+.social-nav-mobile a {
+  color: $clPink;
 }
 
 /*This is technically just for the Portfolio page but so far it has not messed anything up*/
-
-#portfolio .hero--full-height .hero__image {
-    height: 100%;
-    width: auto;
-    object-fit: cover;
-    object-position: 50% 50%;
-    margin: 0 auto;
-}
 
 #portfolio .hero__slide.is-dark {
   background-color: #000000;
@@ -4294,119 +4339,36 @@ select::-ms-expand {
   }
 }
 
-#about {
-  h2 {
-    font-family: 'Proxima_Nova_Sbold';
-    color: #323131;
-  }
-  hr {
-    border-color: #323131;
-  }
-  .center-hr {
-    margin: 0 auto;
-  }
-  .short-hr {
-    border-width: 3px 0 0 0;
-    text-align: left;
-  }
-  .full-hr {
-    width: 100%;
-    border-width: 2px 0 0 0;
-    margin: 65px 0;
-  }
-}
-
-.about-page-title {
-  max-width: 90%;
-  margin: 30px auto;
-}
-
-.title-main {
-  text-align: center;
-}
-
-#shopify-section-about-text {
-  max-width: 90%;
-  margin: 0 auto;
-  font-family: 'Proxima_Nova_Reg';
-  text-transform: none;
-  color: #565656;
-}
-
-#shopify-section-about-clients {
-  max-width: 90%;
-  margin: 0 auto;
+.about-wrapper {
   display: flex;
-  flex-flow: row wrap;
-  padding-bottom: 50px;
-  .client {
-    flex: 1 0 25%;
-    font-family: 'Proxima_Nova_Reg';
-    text-transform: none;
-    padding: 10px 0;
-    @include at-query($max, $medium) {
-      flex: 1 0 50%;  
-    }
-    @include at-query($max, $small) {
-      flex: 1 0 100%;  
-    }
-  }
-}
-
-#shopify-section-about-quote {
-  max-width: 90%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 25px;
-  font-family: 'Proxima_Nova_Reg';
+  flex-wrap: wrap;
 }
 
-.quote-wrapper {
-  width: 60%;
-  text-align: center;
+.about-item-right,
+.about-item-left {
+  padding: 20px;
+}
+
+.about-item-right {
+  width: 66%;
   @include at-query($max, $medium) {
-    width: 100%;  
+    width: 50%;
+  }
+  @include at-query($max, $smallMedium) {
+    width: 100%;
   }
 }
 
-.quote-text {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.quotation-marks {
-  margin-bottom: -50px;
-  p {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 72px;
-  }
-}
-
-.contact-wrapper {
-  width: 30%;
-  text-align: center;
+.about-item-left {
+  width: 33%;
   @include at-query($max, $medium) {
-    width: 100%;  
+    width: 50%;
   }
-}
-
-.about-footer {
-  color: #ffffff;
-  margin: 0 -30px;
-  padding: 0 20px;
-  background-color: #282903;
-  a {
-    color: #ffffff;
-  }
-  .fa-envelope-o {
-    display: block;
-    padding-bottom: 10px;
-    @include at-query($max, $medium) {
-      padding-top: 20px;
-    }
+  @include at-query($max, $smallMedium) {
+    width: 100%;
+    order: 1;
   }
 }
 
@@ -4533,38 +4495,99 @@ select::-ms-expand {
 }
 
 /*================ Press Page Styles ================*/
+.press-wrapper,
+.about-wrapper {
+  padding-bottom: 20px;
+  .about-content {
+    font-size: 14px;
+    font-family: 'Proxima_Nova_Reg';
+    color: $clGray;
+    text-transform: none;
+  }
+  h4, h5, p, a {
+    font-family: 'Proxima_Nova_Reg';
+    color: $clGray;
+  }
+  h4 {
+    font-size: 48px;
+    margin-bottom: 0;
+    letter-spacing: .3em;
+  }
+  h5 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 16px;
+  }
+  span {
+    font-style: italic;
+  }
+  p:hover {
+    span {
+      text-decoration: underline;
+    }
+  }
+}
+
+#shopify-section-press-collage {
+  max-height: 900px;
+  overflow: hidden;
+  @media screen and (max-width: 948px) {
+    max-height: 100%;
+    overflow: visible;
+  }
+  @media screen and (max-width: 948px) {
+    max-height: 900px;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 436px) {
+    max-height: 100%;
+    overflow: visible;
+  }
+}
+
 .shopify-section-press {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.press-item {
-  width: 33%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  padding-bottom: 5px;
-  @include at-query($max, $medium) {
-    width: 49%;
-  }
-  @include at-query($max, $small) {
-    width: 100%;
-  }
+.press-collage {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 1000px;
+  overflow: hidden;
+  margin-left: -8px; /* Adjustment for the gutter */
+  width: 100%;
   img {
-    width: 100%;
-    height: 100%;
-    @include transition(opacity 0.2s);
+    width: 50%;
+    @media screen and (max-width: 948px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 768px) {
+      width: 50%;
+    }
+    @media screen and (max-width: 496px) {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1059px) {
+    max-height: 80vh;
+  }
+  @media screen and (max-width: 948px) {
+    max-height: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    max-height: 800px;
+  }
+  @media screen and (max-width: 436px) {
+    max-height: 100%;
   }
 }
 
-.press-item:hover {
-  img {
-    opacity: .5;
-  }
-  .press-content {
-    opacity: 1;
-  }
+.press-collage-item {
+  margin: 0 8px 8px 0; /* Some gutter */
 }
 
 .press-content {
@@ -4603,6 +4626,10 @@ select::-ms-expand {
 }
 
 /*================ Cart Styles ================*/
+#CartDrawer {
+  z-index: 99;
+}
+
 .drawer__title,
 .ajaxcart__subtotal,
 .cart__row {

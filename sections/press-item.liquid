@@ -1,14 +1,21 @@
+<h4>Press</h4>
+<hr />
+<h5>Print</h5>
 {% for block in section.blocks %}
-  <div class="press-item">
-    <img src="{{ block.settings.press-item-image | img_url: '300x300' }}" />
-    <div class="press-content">
-      <h3>{{ block.settings.press-item-title }}</h3>
-      <p>{{ block.settings.press-item-publication }}</p>
-      <a href="{{ block.settings.press-item-link }}">Read Post</a>
-    </div>
-  </div>
+  {% if block.settings.press-item-type == "print" %}
+  <p>
+    <a href="{{ block.settings.press-item-link }}"><span>{{ block.settings.press-item-title }}</span> &bull; {{ block.settings.press-item-date }}</a>
+  </p>
+  {% endif %}
 {% endfor %}
-{{ paginate | default_pagination }}
+<h5>Digital</h5>
+{% for block in section.blocks %}
+  {% if block.settings.press-item-type == "digital" %}
+  <p>
+    <a href="{{ block.settings.press-item-link }}"><span>{{ block.settings.press-item-title }}</span> &bull; {{ block.settings.press-item-date }}</a>
+  </p>
+  {% endif %}
+{% endfor %}
 {% schema %}
   {
     "name": "Press",
@@ -24,19 +31,29 @@
             "label": "Title"
           },
           {
-            "type": "text",
-            "id": "press-item-publication",
-            "label": "Publication"
-          },
-          {
             "type": "url",
             "id": "press-item-link",
             "label": "Link"
           },
           {
-	          "type": "image_picker",
-		        "id": "press-item-image",
-		        "label": "Image"
+            "type": "text",
+            "id": "press-item-date",
+            "label": "Date"
+          },
+          {
+            "type": "radio",
+            "label": "Type",
+            "id": "press-item-type",
+            "options": [
+              { 
+                "value": "print",
+                "label": "Print"
+              },
+              { 
+                "value": "digital",
+                "label": "Digital"
+              }
+            ]
           }
         ]
       }
