@@ -29,6 +29,8 @@ assets/BaskervilleMTStd-Regular.woff:
   development: 2018-03-05T18:31:52-05:00   d04e47689835364aa0479a76f9f0b8f4
 assets/BaskervilleMTStd-Regular.woff2:
   development: 2018-03-05T18:31:52-05:00   08a0ea08fb60ca91cffc100584a67f5d
+assets/CharlotteLucas_Monogram-white.png:
+  development: 2018-03-21T18:10:50-04:00   2c045856d5aabe2add50502d6c3d13f7
 assets/PW_Banner.jpg:
   development: 2018-03-05T18:31:52-05:00   3e9353d315fa5611dde65925f59f8201
 assets/PW_Banner_copy.jpg:
@@ -140,9 +142,9 @@ assets/respond.min.js:
 assets/right_arrow.png:
   development: 2018-03-17T17:35:07-04:00   eb8c8c8d74381261737f77c27f5764cc
 assets/theme.js.liquid:
-  development: 2018-03-17T17:11:44-04:00   9ec13bc49eff0e3be33a9ce11f3a4c9c
+  development: 2018-03-21T19:01:20-04:00   eb5e29c472f52895f34b7a1f0c0b7bd1
 assets/theme.scss.liquid:
-  development: 2018-03-21T18:08:07-04:00   99f870b81555091a6ad6e8989bdd7fbd
+  development: 2018-03-21T18:12:51-04:00   70330c4dbf4267d04f8a7257ad67c26e
 assets/timber.scss.liquid:
   development: 2018-03-06T19:19:44-05:00   36e67a0e77ffb26dd35502ebfd55ccc4
 config/settings_data.json:
@@ -182,7 +184,7 @@ sections/article-template.liquid:
 sections/branded-overlay-b.liquid:
   development: 2018-03-17T14:31:46-04:00   b739a4063545350409b58bf69a8d8f7f
 sections/branded-overlay.liquid:
-  development: 2018-03-20T18:27:40-04:00   42f7e7773cff2be0f1da69202132c797
+  development: 2018-03-21T18:11:29-04:00   8c339b1da0dbeec766825331bdf337b4
 sections/collection-image-template.liquid:
   development: 2018-03-05T18:31:49-05:00   b91a956f52837a6e689a5b5743a52133
 sections/collection-template.liquid:

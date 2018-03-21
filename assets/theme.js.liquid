@@ -2121,7 +2121,7 @@ theme.Product = (function() {
       self.zoomType = $container.data('image-zoom-type');
 
       if (!$('html').hasClass('lt-ie9')) {
-        enquire.register(theme.variables.mediaQuerySmallUp, {
+        enquire.register(theme.variables.mediaQuerySmall, {
           match: function() {
             self.createImageCarousel();
             if (self.zoomType) {
@@ -2733,7 +2733,7 @@ theme.backButton = function() {
 
 theme.setBreakpoints = function() {
   if(!theme.cache.$html.hasClass('lt-ie9')) {
-    enquire.register(theme.variables.mediaQuerySmallUp, {
+    enquire.register(theme.variables.mediaQuerySmall, {
       match: function() {
         if (theme.settings.gridType === 'collage') {
           theme.clearCollageGridHeights();
