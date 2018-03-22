@@ -4196,7 +4196,8 @@ body {
 
 /*================ Portfolio Specfic Styles ================*/
 #shopify-section-slideshow-portfolio,
-.press-wrapper {
+.press-wrapper,
+.product-content-wrapper {
   margin-top: 20px;
 } 
 
@@ -4288,14 +4289,15 @@ select::-ms-expand {
   font-family: 'Proxima_Nova_Bold';
   width: 100%;
   background-color: white;
-  color: #282904;
-  border: 2px solid #282904;
+  color: $clGray;
+  border: 2px solid $clGray;
   font-size: em(18px);
   padding: 15px 20px 12px 20px;
 }
 
 .btn:hover, .btn--secondary:hover, .rte .btn:hover, .rte .btn--secondary:hover {
-  background-color: #283904;
+  background-color: $clGreen;
+  border-color: $clGreen;
 }
 
 .social-sharing {
@@ -4376,11 +4378,10 @@ select::-ms-expand {
 /*================ Shop Page Styles ================*/
 #shopify-section-collection-template {
   .section-header {
-    padding: 30px 0;
-    background-image: url({{ 'PW_Banner_copy.jpg' | asset_url }});
+    padding: 80px 0;
+    background-image: url({{ 'CL_Banner.jpg' | asset_url }});
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -75px;
     color: #ffffff;
     @include at-query($max, $medium) {
       padding: 15px 0;
@@ -4395,10 +4396,9 @@ select::-ms-expand {
   .section-header h1 {
     font-family: 'Proxima_Nova_Sbold';
     letter-spacing: .12em;
-  }
-  hr {
-    border-width: 3px 0 0 0;
-    border-color: #ffffff;
+    margin-right: -300px;
+    color: $clGray;
+    letter-spacing: .3em;
   }
 }
 
@@ -4426,9 +4426,6 @@ select::-ms-expand {
     opacity: 0;
     -webkit-transition: all .25s ease;
   }
-  .product-info-wrapper {
-    opacity: 1;
-  }
 }
 
 .is-sold-out .background-pillow:hover {
@@ -4436,33 +4433,17 @@ select::-ms-expand {
     opacity: 1;
     -webkit-transition: all .25s ease;
   }
-  .product-info-wrapper {
-    opacity: 0;
-  }
 }
 
 .background-pillow {
-  background-size: contain;
+  background-size: cover;
   font-family: 'Proxima_Nova_Sbold';
   color: #ffffff;
+  background-repeat: no-repeat;
 }
 
 .grid-product__title {
   font-style: normal;
-}
-
-.product-info-wrapper {
-  position: absolute;
-  top: 46%;
-  width: 100%;
-  opacity: 0;
-  @include at-query($max, $medium) {
-    opacity: 1;
-    position: static;
-    top: auto;
-    color: #282904;
-    background-color: #ffffff;
-  }
 }
 
 .grid-product__price {
@@ -4485,6 +4466,18 @@ select::-ms-expand {
   }
 }
 
+.product-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  .grid-product__title,
+  .grid-product__price {
+    font-size: 16px;
+    color: $clGray;
+    text-transform: none;
+    letter-spacing: .1em;
+  }
+}
+
 .is-sold-out .product--image {
   opacity: 1;
 }
@@ -4493,6 +4486,20 @@ select::-ms-expand {
   @include at-query($max, $small) {
     margin-top: 50px;
   }
+}
+
+.product-single__title {
+  color: $clGreen;
+}
+
+.product-single__price {
+  color: $clGray;
+  font-weight: lighter;
+}
+
+.product-single__description {
+  border-color: $clGreen;
+  color: $clGray;
 }
 
 /*================ Press Page Styles ================*/
@@ -4628,7 +4635,7 @@ select::-ms-expand {
 
 /*================ Cart Styles ================*/
 #CartDrawer {
-  z-index: 99;
+  z-index: 1001;
 }
 
 .drawer__title,
@@ -4661,7 +4668,7 @@ select::-ms-expand {
     padding-top: 25px;
     font-family: 'Proxima_Nova_Sbold';
     letter-spacing: .12em;
-    color: #282903;
+    color: $clGray;
   }
   .hr--small {
     border-width: 3px 0 0 0;
@@ -4676,5 +4683,6 @@ select::-ms-expand {
 }
 
 .btn:hover, .btn--secondary:hover, .rte .btn:hover, .rte .btn--secondary:hover {
-  background-color: #7B7F32;
+  background-color: $clGreen;
+  border-color: $clGreen;
 }
