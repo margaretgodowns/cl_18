@@ -146,7 +146,7 @@ assets/right_arrow.png:
 assets/theme.js.liquid:
   development: 2018-03-21T19:01:20-04:00   eb5e29c472f52895f34b7a1f0c0b7bd1
 assets/theme.scss.liquid:
-  development: 2018-03-26T19:59:32-04:00   ddf5a54fe619f4d9b92551ff433c62e8
+  development: 2018-03-26T20:28:04-04:00   4bf442d29410b34567eeac42990fe505
 assets/timber.scss.liquid:
   development: 2018-03-06T19:19:44-05:00   36e67a0e77ffb26dd35502ebfd55ccc4
 config/settings_data.json:

@@ -4342,6 +4342,10 @@ select::-ms-expand {
   }
 }
 
+.image-about {
+  text-align: center;
+}
+
 .about-wrapper {
   display: flex;
   justify-content: space-between;
@@ -4355,7 +4359,7 @@ select::-ms-expand {
 }
 
 .about-item-right {
-  width: 66%;
+  width: 50%;
   @include at-query($max, $medium) {
     width: 50%;
   }
@@ -4365,7 +4369,7 @@ select::-ms-expand {
 }
 
 .about-item-left {
-  width: 33%;
+  width: 50%;
   @include at-query($max, $medium) {
     width: 50%;
   }
@@ -4633,6 +4637,7 @@ select::-ms-expand {
 
 .press-item {
   position: relative;
+  text-align: center;
   padding-bottom: 20px;
   &:hover {
     .press-content {
