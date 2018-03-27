@@ -146,7 +146,7 @@ assets/right_arrow.png:
 assets/theme.js.liquid:
   development: 2018-03-21T19:01:20-04:00   eb5e29c472f52895f34b7a1f0c0b7bd1
 assets/theme.scss.liquid:
-  development: 2018-03-22T19:24:39-04:00   22c5e001d6bc737dc7e4d1d3ed282bbc
+  development: 2018-03-26T19:59:32-04:00   ddf5a54fe619f4d9b92551ff433c62e8
 assets/timber.scss.liquid:
   development: 2018-03-06T19:19:44-05:00   36e67a0e77ffb26dd35502ebfd55ccc4
 config/settings_data.json:
@@ -222,7 +222,7 @@ sections/portfolio-overlay.liquid:
 sections/press-collage.liquid:
   development: 2018-03-20T17:47:38-04:00   5807a2e01101e11c7f557d97da66f141
 sections/press-item.liquid:
-  development: 2018-03-20T17:10:43-04:00   1400e5a6d1a5de2f0bc2345dfaa3e73c
+  development: 2018-03-26T19:55:19-04:00   8bbb34d46b84254acfe610b378c9200d
 sections/product-template.liquid:
   development: 2018-03-05T18:31:50-05:00   8bab2c992a50cd7502972443afe0f64c
 sections/shop-header.liquid:
@@ -326,7 +326,7 @@ templates/page.liquid:
 templates/page.portfolio.liquid:
   development: 2018-03-17T16:02:16-04:00   3c5d1de6e377b60e6f39f1219cfe9b62
 templates/page.press.liquid:
-  development: 2018-03-19T19:09:53-04:00   4f29d2cba272193d2b6ffb8e38e49955
+  development: 2018-03-26T18:47:12-04:00   883d6d2adbe7d6315841ab8a738ca042
 templates/password.liquid:
   development: 2018-03-05T18:32:00-05:00   27c20529a5fa11780bc067f4f5c7cc9d
 templates/product.liquid:

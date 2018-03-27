@@ -4531,11 +4531,6 @@ select::-ms-expand {
   span {
     font-style: italic;
   }
-  p:hover {
-    span {
-      text-decoration: underline;
-    }
-  }
 }
 
 #shopify-section-press-collage {
@@ -4604,19 +4599,12 @@ select::-ms-expand {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #282904;
+  color: #fff !important;
+  background-color: $clPink;
+  width: 80%;
+  padding: 10px;
   opacity: 0;
   @include transition(opacity 0.2s);
-  @include at-query($max, $medium) {
-    opacity: 1;
-    background-color: #ffffff;
-    width: 75%;
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   h3 {
     font-family: 'Proxima_Nova_Sbold';
   }
@@ -4630,6 +4618,29 @@ select::-ms-expand {
     color: #ffffff;
     padding: 10px 30px;
     font-style: normal;
+  }
+  @include at-query($max, $small) {
+    opacity: 1;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: none;
+    top: auto;
+    padding: 5px;
+  }
+}
+
+.press-item {
+  position: relative;
+  padding-bottom: 20px;
+  &:hover {
+    .press-content {
+      opacity: 1;
+    }
+    img {
+      opacity: .8;
+    }
   }
 }
 
