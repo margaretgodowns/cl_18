@@ -33,6 +33,8 @@ assets/CL_Banner.jpg:
   development: 2018-03-22T18:54:35-04:00   d3cf3104c4ea768b19f666cee682b79a
 assets/CharlotteLucas_Monogram-white.png:
   development: 2018-03-21T18:10:50-04:00   2c045856d5aabe2add50502d6c3d13f7
+assets/Name_White.svg:
+  development: 2018-03-28T17:50:08-04:00   dfdf0c7f076d04a34df3152842f54ac5
 assets/PW_Banner.jpg:
   development: 2018-03-05T18:31:52-05:00   3e9353d315fa5611dde65925f59f8201
 assets/PW_Banner_copy.jpg:
@@ -144,9 +146,9 @@ assets/respond.min.js:
 assets/right_arrow.png:
   development: 2018-03-17T17:35:07-04:00   eb8c8c8d74381261737f77c27f5764cc
 assets/theme.js.liquid:
-  development: 2018-03-21T19:01:20-04:00   eb5e29c472f52895f34b7a1f0c0b7bd1
+  development: 2018-03-27T18:32:27-04:00   06f45a1449736022590e0de65acac6ee
 assets/theme.scss.liquid:
-  development: 2018-03-26T20:28:04-04:00   4bf442d29410b34567eeac42990fe505
+  development: 2018-03-27T18:26:41-04:00   4c623707b13948ef929ec08a32d2a7ae
 assets/timber.scss.liquid:
   development: 2018-03-06T19:19:44-05:00   36e67a0e77ffb26dd35502ebfd55ccc4
 config/settings_data.json:
@@ -156,7 +158,7 @@ config/settings_schema.json:
 layout/password.liquid:
   development: 2018-03-05T18:31:57-05:00   4fa2c1add4a7ab07715c702ea2a5e244
 layout/theme.liquid:
-  development: 2018-03-17T16:01:59-04:00   d6fd4c800bd4ed887bc071b887a426e4
+  development: 2018-03-27T17:26:39-04:00   86ad4d527f804a14b2e64f7df215498a
 locales/de.json:
   development: 2018-03-19T19:39:19-04:00   889920be55c0dc001682d61ef93c88e1
 locales/en.default.json:
@@ -184,7 +186,7 @@ sections/advanced-content.liquid:
 sections/article-template.liquid:
   development: 2018-03-05T18:31:49-05:00   24b2ca76ee638a9fa807fdea8811ed13
 sections/branded-overlay-b.liquid:
-  development: 2018-03-17T14:31:46-04:00   b739a4063545350409b58bf69a8d8f7f
+  development: 2018-03-28T17:50:25-04:00   67e84c60b9f2fa182c3684fbd7fc2dbe
 sections/branded-overlay.liquid:
   development: 2018-03-21T18:11:29-04:00   8c339b1da0dbeec766825331bdf337b4
 sections/collection-image-template.liquid:
@@ -206,7 +208,7 @@ sections/featured-video.liquid:
 sections/footer.liquid:
   development: 2018-03-05T18:31:49-05:00   09c4cbb15a45a2bb33e70183149c4b60
 sections/header.liquid:
-  development: 2018-03-22T18:53:02-04:00   489a72f1d3abb1a36b2d6bcde357d5dc
+  development: 2018-03-27T17:41:24-04:00   fe14aa293f2e026acc0e7cd82f2a7c82
 sections/instafeed.liquid:
   development: 2018-03-05T18:31:49-05:00   3823dc662ee8e83bb5add5ecb231db61
 sections/list-collections-template.liquid:
@@ -222,7 +224,7 @@ sections/portfolio-overlay.liquid:
 sections/press-collage.liquid:
   development: 2018-03-20T17:47:38-04:00   5807a2e01101e11c7f557d97da66f141
 sections/press-item.liquid:
-  development: 2018-03-26T19:55:19-04:00   8bbb34d46b84254acfe610b378c9200d
+  development: 2018-03-27T16:59:23-04:00   e716b768b2146f803b3fd9d1fb7c2a21
 sections/product-template.liquid:
   development: 2018-03-05T18:31:50-05:00   8bab2c992a50cd7502972443afe0f64c
 sections/shop-header.liquid:
@@ -274,7 +276,7 @@ snippets/search-bar.liquid:
 snippets/social-meta-tags.liquid:
   development: 2018-03-05T18:31:58-05:00   0a012eb5113b6a710e09fe77babe8030
 snippets/social-sharing.liquid:
-  development: 2018-03-05T18:31:58-05:00   18ac2e8c5a3e27245016548be6ec6275
+  development: 2018-03-27T17:35:49-04:00   f41fb8a41a1d4b214b1a76a308f89fde
 snippets/svg-definitions.liquid:
   development: 2018-03-19T19:39:42-04:00   fe4fbc64d534e355fd8653de4ebac79a
 snippets/tags-article.liquid:

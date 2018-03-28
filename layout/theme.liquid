@@ -108,8 +108,8 @@
     {% endunless %}  
 
     {% if template.name == "index" %}
-      {% section 'branded-overlay' %}
-      {% section 'slideshow-landing' %}
+      {% section 'branded-overlay-b' %}
+      {% section 'slideshow-landing-b' %}
     {% endif %}
 
     {% unless template.name == "index" %}
@@ -149,6 +149,6 @@
   <div id="SearchModal" class="mfp-hide">
     {% include 'search-bar', search_btn_style: 'btn', search_bar_location: 'search-bar--modal' %}
   </div>
-
+  <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 </body>
 </html>
