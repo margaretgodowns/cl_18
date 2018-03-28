@@ -31,6 +31,8 @@ assets/BaskervilleMTStd-Regular.woff2:
   development: 2018-03-05T18:31:52-05:00   08a0ea08fb60ca91cffc100584a67f5d
 assets/CL_Banner.jpg:
   development: 2018-03-22T18:54:35-04:00   d3cf3104c4ea768b19f666cee682b79a
+assets/CharlotteLucas_Monogram-green.png:
+  development: 2018-03-28T18:49:42-04:00   d66b4068860cdf325ae6f35d414bc975
 assets/CharlotteLucas_Monogram-white.png:
   development: 2018-03-21T18:10:50-04:00   2c045856d5aabe2add50502d6c3d13f7
 assets/Name_White.svg:
@@ -148,17 +150,17 @@ assets/right_arrow.png:
 assets/theme.js.liquid:
   development: 2018-03-27T18:32:27-04:00   06f45a1449736022590e0de65acac6ee
 assets/theme.scss.liquid:
-  development: 2018-03-27T18:26:41-04:00   4c623707b13948ef929ec08a32d2a7ae
+  development: 2018-03-28T19:13:56-04:00   126e9aaa32a8941c21ed3a1a0d059e52
 assets/timber.scss.liquid:
   development: 2018-03-06T19:19:44-05:00   36e67a0e77ffb26dd35502ebfd55ccc4
 config/settings_data.json:
-  development: 2018-03-19T19:39:48-04:00   1113e7d8f8911d563cd2f0d5c62fb045
+  development: 2018-03-27T18:27:04-04:00   09e81663a18d12c9a1a6a0230233cf25
 config/settings_schema.json:
   development: 2018-03-19T19:39:45-04:00   198ddae666a0eeba66f1e94fa3a2dee3
 layout/password.liquid:
   development: 2018-03-05T18:31:57-05:00   4fa2c1add4a7ab07715c702ea2a5e244
 layout/theme.liquid:
-  development: 2018-03-27T17:26:39-04:00   86ad4d527f804a14b2e64f7df215498a
+  development: 2018-03-28T18:33:56-04:00   4e770090467c4e0b914a3721bbab309c
 locales/de.json:
   development: 2018-03-19T19:39:19-04:00   889920be55c0dc001682d61ef93c88e1
 locales/en.default.json:
@@ -194,7 +196,7 @@ sections/collection-image-template.liquid:
 sections/collection-template.liquid:
   development: 2018-03-05T18:31:49-05:00   171d83eda7246bb7e86953ea028b8676
 sections/drawer-menu.liquid:
-  development: 2018-03-05T18:31:49-05:00   2b52f6998accce9ada8ea6a8702a82a6
+  development: 2018-03-28T18:31:48-04:00   2b52f6998accce9ada8ea6a8702a82a6
 sections/featured-collections.liquid:
   development: 2018-03-05T18:31:49-05:00   a9522b514680ee104f88c85901f047a7
 sections/featured-content.liquid:
@@ -208,7 +210,7 @@ sections/featured-video.liquid:
 sections/footer.liquid:
   development: 2018-03-05T18:31:49-05:00   09c4cbb15a45a2bb33e70183149c4b60
 sections/header.liquid:
-  development: 2018-03-27T17:41:24-04:00   fe14aa293f2e026acc0e7cd82f2a7c82
+  development: 2018-03-28T18:21:33-04:00   3442c58129710a119158a6b62af6dc7e
 sections/instafeed.liquid:
   development: 2018-03-05T18:31:49-05:00   3823dc662ee8e83bb5add5ecb231db61
 sections/list-collections-template.liquid:
@@ -282,13 +284,13 @@ snippets/svg-definitions.liquid:
 snippets/tags-article.liquid:
   development: 2018-03-05T18:31:59-05:00   e7976dc4c68590a9f1ee7276f99559ac
 templates/404.liquid:
-  development: 2018-03-05T18:31:59-05:00   f1181b55ee89b4ad79ae81d244761cd2
+  development: 2018-03-28T19:12:01-04:00   dff3b5be7ba7fae108e0597764faf814
 templates/article.liquid:
   development: 2018-03-05T18:31:59-05:00   9763e9f309642903282720d29b422aaf
 templates/blog.liquid:
   development: 2018-03-05T18:31:59-05:00   50b3d8b903089de17f09e4d922aa838d
 templates/cart.liquid:
-  development: 2018-03-22T18:48:18-04:00   1c6ea4a78c98cce54dcd1f2b9447c75a
+  development: 2018-03-28T18:31:12-04:00   1c6ea4a78c98cce54dcd1f2b9447c75a
 templates/collection.image.liquid:
   development: 2018-03-05T18:31:59-05:00   cd9a9b1849d65ca4311d6f793008812f
 templates/collection.liquid:
@@ -332,6 +334,6 @@ templates/page.press.liquid:
 templates/password.liquid:
   development: 2018-03-05T18:32:00-05:00   27c20529a5fa11780bc067f4f5c7cc9d
 templates/product.liquid:
-  development: 2018-03-05T18:32:00-05:00   a9333e830a61d1cf59a8c757c9ccb08c
+  development: 2018-03-28T18:12:48-04:00   69caabc346019fd0d5e1c931014cf773
 templates/search.liquid:
   development: 2018-03-05T18:32:00-05:00   5b5ec843550466c7a2c965e0b1c8dbc0

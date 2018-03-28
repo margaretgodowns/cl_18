@@ -233,12 +233,68 @@
               "image": "shopify:\/\/shop_images\/2017124_CLI_Spartanburg-5.jpg",
               "slide_text_color": "is-light"
             }
+          },
+          "1522187363128": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1-CLI-21816-3.jpg",
+              "slide_text_color": "is-light"
+            }
+          },
+          "1522187613211": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/port_5_CLI-Spartanburg-17_1.jpg",
+              "slide_text_color": "is-light"
+            }
+          },
+          "1522188136322": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/port_6_CLI-Spartanburg-11.jpg",
+              "slide_text_color": "is-light"
+            }
+          },
+          "1522188147088": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/port_7_CLI-Spartanburg-10_1.jpg",
+              "slide_text_color": "is-light"
+            }
+          },
+          "1522188299417": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/port_test_wide.jpg",
+              "slide_text_color": "is-light"
+            }
+          },
+          "1522188394470": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/port_wide_2.jpg",
+              "slide_text_color": "is-light"
+            }
+          },
+          "1522188533387": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/port_wide_3.jpg",
+              "slide_text_color": "is-light"
+            }
           }
         },
         "block_order": [
+          "1522188299417",
           "1521317380688",
           "1521318334254",
-          "1521319768445"
+          "1521319768445",
+          "1522187363128",
+          "1522188394470",
+          "1522187613211",
+          "1522188533387",
+          "1522188136322",
+          "1522188147088"
         ],
         "settings": {
           "hero_home_auto": true,
@@ -261,16 +317,10 @@
           "product_vendor_enable": false
         }
       },
-      "about-hero-image": {
-        "type": "about-hero-image",
-        "settings": {
-          "hero-image-about": ""
-        }
-      },
       "about-text": {
         "type": "about-text",
         "settings": {
-          "about-text": "As snow fell on New York City in the winter of 2012, two kindred spirits would join forces in the warm, wood paneled underbelly of an East Village bar. Louisa Pierce spied an impish beauty whose spirit and zest flowed freer than the whiskey that was keeping warm the rock and roll remnants of recent past and the It Girls of tomorrow. Emily Ward returned her gaze and they soon bonded over their love of Art Deco lines that swooped over the crush of peacock velvet into the swish of a floral drape only to be stopped dead in its tracks by the stark cool of a brass lamp. They knew that the senses should be shaken and not stirred.  \n<br><br>\nThey knew that chic should never be shabby. They knew that glamour was essential but never at the cost of comfort. They knew instinctively that romances could be made richer, inspirations clearer, and futures brighter if surrounded by undeniable beauty. These mottos swirled and swelled into a style that transcended eclectic into an electric collective!  \n<br><br>\nThey packed their things and relocated to the Deep South. The drowsy drawl of Nashville, Tennessee went quiet as they scoured and pillaged every imaginable vendor in search of chandeliers that shimmered with delicate magic, kaleidoscope carpets, heavy with history, marble that was smooth to palm and cool to the cheek, and wood that whispered that it was born long before you. They built worlds around themselves that charged the imagination and planted seeds of lust in the hearts of their visitors. It wasn’t long before a porcelain skinned, flame haired beauty declared it only right that they delve into her heart and manifest her essence into the home that surrounded her.  \n<br><br>\nA gentleman of Southern Royalty with a wife so lovely and rare that she could only be named after a flower called upon them to ignite their kingdom with casual elegance and gentle grandeur. They smoothed the raucous edges of a bluesy drummer’s soul and gave him a serene haven from his life on the road. They gave a manic maker of film and art a place to create, combust, and refuel."
+          "about-text": "Charlotte Lucas Interior Design, founded by Charlotte Harris Lucas in 2012, is frequently featured in publications like Elle Decor, Southern Living, and Garden & Gun, which celebrate the firm’s bold use of color and whimsical detail in residential projects. Charlotte Lucas’s love for design started at an early age, as she learned from her designer mother to appreciate the impact of color, pattern, and detail. This focus on color and detail in her interiors has developed into a signature, recognizable style.\n<br><br>\nCharlotte draws inspiration from her clients and their homes, family heirlooms, and traveling. She loves to go on buying trips for antiques and one-of-a-kind objects, as she is always mindful that minor details can create major impact. She and her team focus on providing perfectly proportioned rooms and custom designs for each client.\n<br><br>\nCharlotte was born and raised in North Carolina and attended design school at the University of Georgia, where she was recently ranked fourth in the Alumni Association’s Bulldog 100, which recognizes the fastest-growing businesses owned or operated by UGA alumni each year. Charlotte also founded a wallpaper and fabric company, House of Harris, with her sister and fellow designer,  Liz Harris Carroll. House of Harris appeared in Vogue and Veranda shortly after launching.\n<br><br>\nCharlotte currently resides in Charlotte, NC with her two children Liles and Townes, their labradoodle Saba and her husband Brooks."
         }
       },
       "about-clients": {
@@ -403,65 +453,85 @@
           "1501555311997": {
             "type": "text",
             "settings": {
-              "press-item-title": "THE STARTER HOUSE",
-              "press-item-publication": "GARDEN & GUN",
-              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/19_homplace.pdf?18045650189502434799",
-              "press-item-image": ""
+              "press-item-title": "In High Spirits",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2490\/2230\/files\/HighSpirits.pdf?8651165007727638812",
+              "press-item-date": "December 2017",
+              "press-item-image": "shopify:\/\/shop_images\/cover_2_3c7203a7-c8a9-4c3b-b570-da878e11516b.jpg"
             }
           },
-          "1501556533630": {
+          "1521580693214": {
             "type": "text",
             "settings": {
-              "press-item-title": "Cali-Cool Home Makeover",
-              "press-item-publication": "",
-              "press-item-link": "https:\/\/www.onekingslane.com\/live-love-home\/jen-meyer-home-makeover-pierce-and-ward\/",
-              "press-item-image": ""
+              "press-item-title": "Thoroughly Modern Charlotte",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2490\/2230\/files\/House-Beautiful.pdf?3566213099182005907",
+              "press-item-date": "January 2017",
+              "press-item-image": "shopify:\/\/shop_images\/charlotte_home_cover_40fc8dd1-59c7-4ebe-890c-bfad76c8a24b.jpg"
             }
           },
-          "1501556659796": {
+          "1521580825699": {
             "type": "text",
             "settings": {
-              "press-item-title": "Elegant English-Inspired",
-              "press-item-publication": "Architectural Digest",
-              "press-item-link": "http:\/\/www.architecturaldigest.com\/story\/tour-karen-elsons-elegant-english-inspired-nashville-home",
-              "press-item-image": ""
+              "press-item-title": "Rhapsody",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2490\/2230\/files\/Rhapsody.pdf?6225458992590917878",
+              "press-item-date": "February 2017",
+              "press-item-image": "shopify:\/\/shop_images\/cover_2_3c7203a7-c8a9-4c3b-b570-da878e11516b.jpg"
             }
           },
-          "1501556737067": {
+          "1521580911753": {
             "type": "text",
             "settings": {
-              "press-item-title": "Leo in Malibu",
-              "press-item-publication": "Trulia",
-              "press-item-link": "https:\/\/www.trulia.com\/blog\/celebrity-homes\/hollywood-heartthrob-leonardo-dicaprio-lists-malibu-home\/",
-              "press-item-image": ""
+              "press-item-title": "Elle Decor",
+              "press-item-link": "https:\/\/www.elledecor.com\/design-decorate\/g3331\/bright-room-colors\/?slide=15",
+              "press-item-date": "October 2016",
+              "press-item-image": "shopify:\/\/shop_images\/charlotte_home_cover_40fc8dd1-59c7-4ebe-890c-bfad76c8a24b.jpg"
             }
           },
-          "1501556867911": {
+          "1521581068820": {
             "type": "text",
             "settings": {
-              "press-item-title": "Soul Sisters",
-              "press-item-publication": "House Beautiful",
-              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/hbx0916-nextwave-lo.pdf?16214652705472318380",
-              "press-item-image": ""
+              "press-item-title": "Dr. Oz The Good Life",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2490\/2230\/files\/OZM050116office_lo1.pdf?17373436706162885172",
+              "press-item-date": "2016",
+              "press-item-image": "shopify:\/\/shop_images\/cover_2_3c7203a7-c8a9-4c3b-b570-da878e11516b.jpg"
             }
           },
-          "1501556988270": {
+          "1521581508097": {
             "type": "text",
             "settings": {
-              "press-item-title": "Southern Hot List",
-              "press-item-publication": "Garden & Gun",
-              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/22_GG0116_hotlist.pdf?12569446281392227304",
-              "press-item-image": ""
+              "press-item-title": "Decorist",
+              "press-item-link": "https:\/\/www.decorist.com\/blog\/5-tips-to-get-a-modern-look-with-a-southern-sophistication\/?utm_source=Iterable&utm_campaign=modern-style-with-southern-sophistication&utm_medium=email",
+              "press-item-date": "September 2016",
+              "press-item-image": "shopify:\/\/shop_images\/charlotte_home_cover_40fc8dd1-59c7-4ebe-890c-bfad76c8a24b.jpg"
+            }
+          },
+          "1522110172908": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Example Press Item",
+              "press-item-link": "",
+              "press-item-date": "December 2017",
+              "press-item-image": "shopify:\/\/shop_images\/cover_2_3c7203a7-c8a9-4c3b-b570-da878e11516b.jpg"
+            }
+          },
+          "1522110197591": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Example Press Item",
+              "press-item-link": "",
+              "press-item-date": "January 2018",
+              "press-item-image": "shopify:\/\/shop_images\/charlotte_home_cover_40fc8dd1-59c7-4ebe-890c-bfad76c8a24b.jpg"
             }
           }
         },
         "block_order": [
           "1501555311997",
-          "1501556533630",
-          "1501556659796",
-          "1501556737067",
-          "1501556867911",
-          "1501556988270"
+          "1521580693214",
+          "1521580825699",
+          "1521580911753",
+          "1521581068820",
+          "1521581508097",
+          "1522110172908",
+          "1522110197591"
         ],
         "settings": {}
       },
@@ -490,6 +560,16 @@
         "settings": {
           "hero_home_auto": true,
           "home_hero_auto_speed": "5000"
+        }
+      },
+      "press-collage": {
+        "type": "press-collage",
+        "settings": {}
+      },
+      "about-image": {
+        "type": "about-image",
+        "settings": {
+          "image-about": "shopify:\/\/shop_images\/Screen_Shot_2018-03-26_at_4.34.46_PM.png"
         }
       }
     },

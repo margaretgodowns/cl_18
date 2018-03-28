@@ -4089,19 +4089,9 @@ body,
   top: 0;
   align-items: center;
   text-align: center;
-  .social-nav {
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 50px;
-    a {
-      z-index: 11;
-      cursor: pointer;
-      transition: .2s ease-out;
-      &:hover {
-        margin-bottom: 5px;
-      }
-    }
+  img {
+    width: 50%;
+    padding: 40px;
   }
 }
 
@@ -4119,19 +4109,12 @@ body,
   justify-content: space-between;
 }
 
-.branded-overlay-h2,
 .branded-overlay-h3 {
   font-family: 'Proxima_Nova_Reg';
   color: $clGray;
   padding: 40px;
   letter-spacing: .3em;
-}
-
-.branded-overlay-h2 {
-  font-size: 3em;
-  @include at-query($max, $small) {
-    font-size: 1.5em;
-  }
+  font-weight: bold;
 }
 
 .muted-overlay {
@@ -4139,7 +4122,7 @@ body,
   height: 100%;
   position: absolute;
   background-color: #000;
-  opacity: .1;
+  opacity: .3;
   cursor: pointer;
   left: 0;
   top: 0;
@@ -4528,16 +4511,16 @@ select::-ms-expand {
     color: $clGray;
   }
   h4 {
-    font-size: 48px;
-    margin-bottom: 0;
-    letter-spacing: .3em;
+    font-size: 34px;
+    margin-bottom: 1px;
+    letter-spacing: .2em;
   }
   h5 {
     font-size: 20px;
     margin-bottom: 0;
   }
   p {
-    font-size: 16px;
+    font-size: 12px;
   }
   span {
     font-style: italic;
@@ -4659,6 +4642,16 @@ select::-ms-expand {
 /*================ Cart Styles ================*/
 #CartDrawer {
   z-index: 1001;
+  background-color: #fff;
+  color: $clGray;
+  border-left: 2px solid $clGray;
+  input,
+  .drawer a {
+    color: $clGray;
+  }
+}
+.drawer__close-button:active {
+  background-color: #fff;
 }
 
 .drawer__title,
@@ -4705,7 +4698,23 @@ select::-ms-expand {
   }
 }
 
-.btn:hover, .btn--secondary:hover, .rte .btn:hover, .rte .btn--secondary:hover {
+.drawer .btn--secondary,
+.btn:hover, 
+.btn--secondary:hover, 
+.rte .btn:hover, 
+.rte .btn--secondary:hover,
+.btn--secondary:active, 
+.rte .btn--secondary:active {
   background-color: $clGreen;
   border-color: $clGreen;
+} 
+
+// 404 Template
+.section-header--404,
+.section-header--404 h1 {
+  font-family: 'Proxima_Nova_Sbold';
+}
+
+.section-header--404 a {
+  color: $clPink;
 }
